@@ -71,9 +71,9 @@ Ha nem szeretnél a VNet és Subnet manuális beállításaival időt húzni, az
   az vm list-sizes --location "pl: swedencentral" --output table
   ```
 * **Elérhető operációs rendszerek adott régióban::**
-```bash
+  ```bash
  az vm image list --location swedencentral --output table
-```
+  ```
 
 ### Új Virtuális Gép indítása
 Az alábbi parancs létrehoz egy alapértelmezett virtuális gépet:
