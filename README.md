@@ -87,6 +87,19 @@ az vm create \
 az vm create --resource-group "EROFORRASCSOPORT_NEVE" --name "VM_neve" --size "Standard_B2s" --public-ip-sku Standard --admin-username "azureuser" --admin-password "BiztonsagosJelszo1234@!"
 ```
 
+Ha a meglévő vNrt-hez szeretnéd illeszteni azt így teheted meg:
+```bash
+az vm create \
+  --resource-group "EROFORRASCSOPORT_NEVE" \
+  --name "VM_neve" \
+  --size "Standard_B2s" \
+  --vnet-name "VNet_neve" \
+  --subnet "Subnet_neve" \
+  --public-ip-sku Standard \
+  --admin-username "azureuser" \
+  --admin-password "BiztonsagosJelszo1234@!"
+```
+
 
 ## 📊 4. Operációs Rendszerek (OS Images) Választása
 
