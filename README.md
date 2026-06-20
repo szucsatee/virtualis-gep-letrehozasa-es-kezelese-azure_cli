@@ -72,7 +72,7 @@ Ha nem szeretnél a VNet és Subnet manuális beállításaival időt húzni, az
   ```
 * **Elérhető operációs rendszerek adott régióban::**
   ```bash
- az vm image list --location swedencentral --output table
+  az vm image list --location "pl: swedencentral" --output table
   ```
 
 ### Új Virtuális Gép indítása
