@@ -62,6 +62,12 @@ Amennyiben saját hálózatot szeretnél kialakítani a virtuális gép alá, ha
 Ha nem szeretnél a VNet és Subnet manuális beállításaival időt húzni, az Azure automatikusan létrehozza azokat a gép indításakor.
 
 ### Előkészületek
+
+* **Erőforráscsoport létrehozása**
+   ```bash
+  az group create --name "EROFORRASCSOPORT_NEVE" --location "pl: swedencentral"
+  ```
+
 * **Elérhető régiók (Location) listája:**
   ```bash
   az account list-locations --output table
