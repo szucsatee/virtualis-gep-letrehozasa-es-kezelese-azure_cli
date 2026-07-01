@@ -101,6 +101,10 @@ az vm create \
 az vm create --resource-group "EROFORRASCSOPORT_NEVE" --name "VM_neve" --size "Standard_B2s" --public-ip-sku Standard --admin-username "azureuser" --admin-password "BiztonsagosJelszo1234@!"
 ```
 
+<img width="1720" height="311" alt="image" src="https://github.com/user-attachments/assets/6e3ec876-8490-4ac5-909d-69c37a2d18c4" />
+
+
+
 Ha a meglévő vNrt-hez szeretnéd illeszteni azt így teheted meg:
 ```bash
 az vm create \
@@ -148,6 +152,10 @@ Alapértelmezett gép helyett saját Linux vagy Windows rendszert is választhat
   az vm list-ip-addresses --resource-group "EROFORRASCSOPORT_NEVE" --name "VM_neve" --output table
   ```
 
+<img width="1680" height="607" alt="image" src="https://github.com/user-attachments/assets/c9727d41-e1b5-4318-8d32-65ae82fbe402" />
+
+  
+
 ### Életciklus parancsok
 * **Virtuális gép elindítása:**
   ```bash
@@ -157,6 +165,10 @@ Alapértelmezett gép helyett saját Linux vagy Windows rendszert is választhat
   ```bash
   az vm deallocate --resource-group "EROFORRASCSOPORT_NEVE" --name "VM_neve"
   ```
+
+<img width="860" height="192" alt="image" src="https://github.com/user-attachments/assets/edb6a9a9-77ec-4fd2-b73a-b8872684fc8c" />
+
+
 
 ---
 
